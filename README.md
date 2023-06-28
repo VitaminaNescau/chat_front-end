@@ -1,7 +1,7 @@
-#Frontend do Chat em JavaFX
+# Frontend do Chat em JavaFX
 Este é o frontend desenvolvido em JavaFX para um chat. O objetivo deste projeto é fornecer uma interface gráfica intuitiva e interativa para que os usuários possam se comunicar em tempo real.
 
-#Recursos e Funcionalidades
+# Recursos e Funcionalidades
 
 Interface Gráfica Amigável: O frontend foi desenvolvido utilizando a biblioteca JavaFX, que oferece uma ampla gama de componentes gráficos personalizáveis para criar uma interface agradável e intuitiva.
 
@@ -11,7 +11,7 @@ Exibição de Conversas: O frontend exibe as conversas em uma interface de chat,
 
 Envio de Mensagens: Os usuários podem digitar suas mensagens em um campo de entrada e enviá-las para o chat. As mensagens enviadas são exibidas na interface para que todos os participantes possam ver.
 
-#Futuras melhorias 
+# Futuras melhorias 
 Notificações de Novas Mensagens: O frontend exibe notificações quando uma nova mensagem é recebida. Isso permite que os usuários sejam alertados instantaneamente sobre novas mensagens, mesmo que o aplicativo esteja em segundo plano.
 
 Configuração e Execução
