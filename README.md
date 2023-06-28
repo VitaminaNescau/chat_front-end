@@ -14,7 +14,7 @@ Envio de Mensagens: Os usuários podem digitar suas mensagens em um campo de ent
 # Futuras melhorias 
 Notificações de Novas Mensagens: O frontend exibe notificações quando uma nova mensagem é recebida. Isso permite que os usuários sejam alertados instantaneamente sobre novas mensagens, mesmo que o aplicativo esteja em segundo plano.
 
-Configuração e Execução
+# Configuração e Execução
 Clone este repositório para a sua máquina local.
 Certifique-se de ter o JavaFX instalado em sua máquina. Caso contrário, faça o download e instale a versão mais recente do JavaFX SDK.
 Abra o projeto em sua IDE preferida.
@@ -24,5 +24,5 @@ Contribuição
 Contribuições são bem-vindas! Se você quiser melhorar ou adicionar recursos ao frontend do chat em JavaFX, siga as etapas abaixo:
 
 
-Licença
+# Licença
 Este projeto está licenciado sob a MIT License. Sinta-se à vontade para usar, modificar e distribuir o código conforme necessário.
