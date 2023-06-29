@@ -69,9 +69,16 @@ public class ChatController implements Initializable{
     void sendMessager(MouseEvent event) {
        new SendMessager()
        .send(friendsList.getSelectionModel().getSelectedItem()+";"+messagerText.getText()); 
-         messagerhistory.get(friendsList.getSelectionModel()
-         .getSelectedItem())
-         .add(Userdto.getInstance().getName()+": "+messagerText.getText());
+       try {
+        messagerhistory.get(friendsList.getSelectionModel()
+     .getSelectedItem())
+     .add(Userdto.getInstance().getName()+": "+messagerText.getText());
+     } catch (NullPointerException e) {
+        messagerhistory.put(friendsList.getSelectionModel().getSelectedItem(), new ArrayList<String>());
+        messagerhistory.get(friendsList.getSelectionModel()
+     .getSelectedItem())
+     .add(Userdto.getInstance().getName()+": "+messagerText.getText());
+     }
        viewMessager.getItems().add(messagerText.getText());
         
      }
