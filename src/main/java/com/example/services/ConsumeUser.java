@@ -24,7 +24,7 @@ public class ConsumeUser  {
     
     public List<String> friendList(int id){
         HttpRequest request = HttpRequest.newBuilder(URI
-        .create("http://localhost:8080/friend/list/"+id))
+        .create("http://18.212.37.109:8080/friend/list/"+id))
         .GET()
         .header("Content-type", "application/json")
         .build();
@@ -63,7 +63,7 @@ public class ConsumeUser  {
     // }
     public FriendDTO findFriend(String name){
         HttpRequest request = HttpRequest
-        .newBuilder(URI.create("http://localhost:8080/friend/list/new/"+Userdto.getInstance().getName()+"/"+name))
+        .newBuilder(URI.create("http://18.212.37.109:8080/friend/list/new/"+Userdto.getInstance().getName()+"/"+name))
         .GET()
         .header("Content-type", "application/json")
         .build();

@@ -20,7 +20,7 @@ public class signUp {
         System.out.println(body);
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("http://localhost:8080/security/singup"))
+                .uri(URI.create("http://18.212.37.109:8080/security/singup"))
                 .header("Content-type", "application/json")
                 .POST(BodyPublishers.ofString(body))
                 .build();

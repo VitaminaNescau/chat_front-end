@@ -16,7 +16,7 @@ public class login {
     
     public boolean loginVerify(String username,String password) throws IOException{
         try {
-            socket.connect(new InetSocketAddress("localhost", 3030));
+            socket.connect(new InetSocketAddress("18.212.37.109", 3030));
             PrintStream output = new PrintStream(socket.getOutputStream(),true);
             output.println(username+";"+password);
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
